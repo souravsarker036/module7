@@ -1,0 +1,14 @@
+.container{
+    border: 2px solid salmon;
+    display: flex;
+    /* justify-content: space-evenly;
+    align-items: center; */
+     height: 250px;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap-reverse;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: 2px dashed tomato;
+}
