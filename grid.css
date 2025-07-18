@@ -1,0 +1,16 @@
+.container{
+    display: grid;
+    gap: 50px;
+    grid-template-columns: 200px 200px 200px 200px;
+    /* grid-template-columns: repeat(3, 100px) 100px; */
+    /* justify-content: center; */
+    /* gap: 10px; */
+    /* grid-column: end; */
+    height: 50vh;
+    align-items: start;
+    
+}
+.item{
+    border: 2px solid aquamarine;
+    text-align: center;
+}
