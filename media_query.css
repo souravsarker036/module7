@@ -1,0 +1,31 @@
+.food{
+    border: 2px solid blueviolet;
+    padding: 10px;
+    border-radius: 15px;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+.food img{
+    width: 100%;
+}
+/* smaller device */
+@media screen and (max-width:576px) {
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .food{
+        background-color: aqua;
+    }
+}
+/* medium device */
+@media screen and (min-width: 577px) and (max-width:992px) {
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .food{
+        background-color: aquamarine;
+    }
+}
